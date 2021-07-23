@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Day 11 - The Might guy Quiz</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            body {
+                background-color: #228c22;
+                color: white;
+                font-family: 'Righteous', cursive;
+            }
+
+            #intro {
+                display: flex;
+                padding: 30px;
+                justify-content: center;
+            }
+
+            #btn {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            #btn p {
+                border-radius: 10px;
+                padding: 10px;
+                margin: 10px;
+                background-color: #1faa1f;
+                cursor: pointer;
+
+            }
+
+            #intro img {
+                height: 550px;
+            }
+
+            #intro h1 {
+                font-size: 80px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            a:active{
+                color: white;
+                text-decoration: none;
+            }
+            a:visited{
+                color: white;
+                text-decoration: none;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="intro">
+            <img src="./mightguyentry.png" alt="Might Guy">
+            <div id="btn">
+                <h1>The Might Guy Quiz</h1>
+                <p onclick="loadQuiz">
+                    <a href="./quiz.html">Test the level of your youth</a>
+                </p>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>
